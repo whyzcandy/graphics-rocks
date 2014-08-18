@@ -52,9 +52,8 @@ div.keywords {
 }
 div.keywords div {
    border: solid 1px #888;
-   border-radius: 0.75em;
    background-color: #E4EDEA;
-   padding: 0.1em 0.5em;
+   border-radius: 0.75em;
 }
 @media screen and (max-device-width: 480px), screen and (max-width: 480px) {
    div.abstract {
