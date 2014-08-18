@@ -48,12 +48,13 @@ div.video{
    height: 315px;
 }
 div.keywords {
-   display:inline;
+   display:block;
 }
 div.keywords div {
    border: solid 1px #888;
+   border-radius: 0.6em;
    background-color: #E4EDEA;
-   padding: 0.05em 0.3em;
+   padding: 0.05em 0.3em 0.05em 0.4em;
    font-size: 90%;
 }
 @media screen and (max-device-width: 480px), screen and (max-width: 480px) {
