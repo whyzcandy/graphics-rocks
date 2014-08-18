@@ -1,0 +1,19 @@
+<h1>Siggraph 2014 Paper</h1>
+<div ng-repeat="paper in papers" class="item">
+   <h2><a ng-href="paper.link">{{paper.name}}</a></h2>
+   <div class="inline">
+      <div class="abstract">
+   <div class="keywords">
+      <span>{{paper.session}}</span>
+   </div>
+      <p>
+      {{paper.abstract}}
+      </p>
+      </div>
+      <div>
+   <iframe ng-show="paper.video !== undefined" width="560" height="315"
+      ng-src="{{paper.video}}" frameborder="0" allowfullscreen>
+   </iframe>
+</div>
+   </div>
+</div>

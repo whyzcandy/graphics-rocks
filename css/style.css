@@ -1,0 +1,36 @@
+h1 {
+   font-family: 'Raleway', sans-serif;
+   color: #545C59;
+   padding: 20px 0 0 20px;
+}
+h2 a {
+   font-family: 'Bitter', serif;
+   color: #111;
+}
+body {
+   font-family: 'Roboto', sans-serif;
+   color: #111;
+}
+div.item {
+   padding: 20px;
+}
+div.inline div {
+   display: inline-block;
+   padding-left: 12px;
+   padding-right: 30px;
+}
+p {
+   text-indent: 20px;
+   text-align: justify;
+}
+div.abstract {
+   line-height: 22px;
+   width: 500px;
+}
+div.keywords span {
+   border: solid 1px #888;
+   border-radius: 12px;
+   background-color: #E4EDEA;
+   padding: 4px 8px 4px 9px;
+   font-size: 13px;
+}
