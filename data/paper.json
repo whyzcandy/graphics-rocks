@@ -31,5 +31,40 @@
    	"link": "http://www.riken.jp/brict/Ijiri/ProjTakaflower2/index.html",
    	"abstract": "This paper presents a novel three dimensional (3D) flower modeling technique that utilizes an X-ray computed tomography (CT) system and real-world flowers. Although a CT system provides volume data that captures the internal structures of flowers, it is difficult to accurately segment them into regions of particular organs and model them as smooth surfaces because a flower consists of thin organs that contact one another. We thus introduce a semiautomatic modeling technique that is based on a new active contour model with energy functionals designed for flower CT. Our key idea is to approximate flower components by two important primitives, a shaft and a sheet. Based on our active contour model, we also provide novel user interfaces and a numerical scheme to fit these primitives so as to reconstruct realistic thin flower organs efficiently. To demonstrate the feasibility of our technique, we provide various flower models reconstructed from CT volumes. ",
    	"video": "//www.youtube.com/embed/yD_cSRJ7Gho"
+   },
+   {
+   	"name": "Design and Fabrication by Example",
+   	"session": "Fabrication Oriented Design",
+   	"link": "http://fabbyexample.csail.mit.edu/",
+   	"video": "//www.youtube.com/embed/YO8iQQUd2JM",
+   	"abstract": "We propose a data-driven method for designing 3D models that can be fabricated. First, our approach converts a collection of expert-created designs to a dataset of parameterized design templates that includes all information necessary for fabrication. The templates are then used in an interactive design system to create new fabricable models in a design-by-example manner. A simple interface allows novice users to choose template parts from the database, change their parameters, and combine them to create new models. Using the information in the template database, the system can automatically position, align, and connect parts: the system accomplishes this by adjusting parameters, adding appropriate constraints, and assigning connectors. This process ensures that the created models can be fabricated, saves the user from many tedious but necessary tasks, and makes it possible for non-experts to design and create actual physical objects. To demonstrate our data-driven method, we present several examples of complex functional objects that we designed and manufactured using our system."
+   },
+   {
+   	"name": "Designing Inflatable Structures",
+   	"session": "Fabrication Oriented Design",
+   	"link": "http://www.disneyresearch.com/project/designing-inflatable-structures/",
+   	"video": "//www.youtube.com/embed/oz5EDYQCpHU",
+   	"abstract": "We propose an interactive, optimization-in-the-loop tool for designing inflatable structures. Given a target shape, the user draws a network of seams defining desired segment boundaries in 3D. Our method computes optimally-shaped flat panels for the segments, such that the inflated structure is as close as possible to the target while satisfying the desired seam positions. Our approach is underpinned by physics-based pattern optimization, accurate coarse-scale simulation using tension field theory, and a specialized constraint-optimization method. Our system is fast enough to warrant interactive exploration of different seam layouts, including internal connections, and their effects on the inflated shape. We demonstrate the resulting design process on a varied set of simulation examples, some of which we have fabricated, demonstrating excellent agreement with the design intent."
+   },
+   {
+   	"name": "Computational Design of Linkage-Based Characters",
+   	"session": "Fabrication Oriented Design",
+   	"link": "http://www.disneyresearch.com/project/linkage-based-characters/",
+   	"video": "//www.youtube.com/embed/XlV-LFozQSc",
+   	"abstract": "We present a design system for linkage-based characters, combining form and function in an aesthetically-pleasing manner. Linkage-based character design exhibits a mix of discrete and continuous problems, making for a highly unintuitive design space that is difficult to navigate without assistance. Our system significantly simplifies this task by allowing users to interactively browse different topology options, thus guiding the discrete set of choices that need to be made. A subsequent continuous optimization step improves motion quality and, crucially, safeguards against singularities. We demonstrate the flexibility of our method on a diverse set of character designs, and then realize our designs by physically fabricating prototypes."
+   },
+   {
+   	"name": "Pteromys: Interactive Design and Optimization of Free-formed Free-flight Model Airplanes",
+   	"session": "Fabrication Oriented Design",
+   	"video": "//www.youtube.com/embed/-KJUVJAUY8o",
+   	"abstract": "This paper introduces novel interactive techniques for designing original hand-launched free-flight glider airplanes which can actually fly. The aerodynamic properties of a glider aircraft depend on their shape, imposing significant design constraints. We present a compact and efficient representation of glider aerodynamics that can be fit to real-world conditions using a data-driven method. To do so, we acquire a sample set of glider flight trajectories using a video camera and the system learns a nonlinear relationship between forces on the wing and wing shape. Our acquisition system is much simpler to construct than a wind tunnel, but using it we can efficiently discover a wing model for simple gliding aircraft. Our resulting model can handle general free-form wing shapes and yet agrees sufficiently well with the acquired airplane flight trajectories. Based on this compact aerodynamics model, we present a design tool in which the wing configuration created by a user is interactively optimized to maximize flight-ability. To demonstrate the effectiveness of our tool for glider design by novice users, we compare it with a traditional design workflow.",
+   	"link": "http://www-ui.is.s.u-tokyo.ac.jp/~ume/GliderDesign/2014_siggraph_GliderDesign.html"
+   },
+   {
+   	"name": "Wire Mesh Design",
+   	"session": "Fabrication Oriented Design",
+   	"link": "http://www.cs.columbia.edu/~akash/",
+   	"video": "//www.youtube.com/embed/pUwiIrKZFrU",
+   	"abstract": "We present a computational approach for designing wire meshes, i.e., freeform surfaces composed of woven wires arranged in a regular grid. To facilitate shape exploration, we map material properties of wire meshes to the geometric model of Chebyshev nets. This abstraction is exploited to build an efficient optimization scheme. While the theory of Chebyshev nets suggests a highly constrained design space, we show that allowing controlled deviations from the underlying surface provides a rich shape space for design exploration. Our algorithm balances globally coupled material constraints with aesthetic and geometric design objectives that can be specified by the user in an interactive design session. In addition to sculptural art, wire meshes represent an innovative medium for industrial applications including composite materials and architectural facades. We demonstrate the effectiveness of our approach using a variety of digital and physical prototypes with a level of shape complexity unobtainable using previous methods. "
    }
 ]
