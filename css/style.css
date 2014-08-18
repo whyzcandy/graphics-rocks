@@ -11,6 +11,9 @@ h2 a {
    font-family: 'Bitter', serif;
    color: #111;
 }
+#layout {
+   padding-left: 100px;
+}
 body {
    font-family: 'Roboto', sans-serif;
    -webkit-font-smoothing: antialiased;
@@ -21,20 +24,20 @@ body {
    color: #111;
 }
 div.item {
-   padding-top: 20px;
+   padding-top: 1em;
 }
 div.inline div {
    display: inline-block;
 }
 p {
-   text-indent: 20px;
+   text-indent: 2em;
    text-align: justify;
 }
 div.abstract {
    text-align: left;
-   line-height: 22px;
+   line-height: 1.5em;
    width: 540px;
-   padding-right: 30px;
+   padding-right: 2em;
 }
 div.center {
    text-align: center;
@@ -47,9 +50,9 @@ div.video{
 
 div.keywords span {
    border: solid 1px #888;
-   border-radius: 12px;
+   border-radius: 0.75em;
    background-color: #E4EDEA;
-   padding: 4px 8px 4px 9px;
+   padding: 0.25em 0.5em;
    font-size: 90%;
 }
 @media screen and (max-device-width: 480px), screen and (max-width: 480px) {
@@ -57,12 +60,18 @@ div.keywords span {
       width: 92%;
       padding-right: 0;
    }
+   div#layout {
+      width: 92%;
+   }
 }
 
 @media screen and (max-device-width: 750px), screen and (max-width: 750px) {
    div.abstract {
       width: 92%;
       padding-right: 0;
+   }
+   div#layout {
+      width: 92%;
    }
 }
 
