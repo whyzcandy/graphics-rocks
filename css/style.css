@@ -60,6 +60,11 @@ div.keywords span {
       width: 92%;
       padding-right: 0;
    }
+   div.video {
+      width: 640px;
+      height: 480px;
+   }
+
    div#layout {
       width: 92%;
    }
@@ -72,6 +77,10 @@ div.keywords span {
    }
    div#layout {
       width: 92%;
+   }
+   div.video {
+      width: 640px;
+      height: 480px;
    }
 }
 
