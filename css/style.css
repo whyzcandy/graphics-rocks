@@ -2,6 +2,10 @@ h1 {
    font-family: 'Raleway', sans-serif;
    color: #545C59;
    padding: 20px 0 0 20px;
+   text-align: center;
+}
+h2 {
+   text-align: left;
 }
 h2 a {
    font-family: 'Bitter', serif;
@@ -9,28 +13,56 @@ h2 a {
 }
 body {
    font-family: 'Roboto', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+   vertical-align: baseline;
+   font-size: 100%;
    color: #111;
 }
 div.item {
-   padding: 20px;
+   padding-top: 20px;
 }
 div.inline div {
    display: inline-block;
-   padding-left: 12px;
-   padding-right: 30px;
 }
 p {
    text-indent: 20px;
    text-align: justify;
 }
 div.abstract {
+   text-align: left;
    line-height: 22px;
-   width: 500px;
+   width: 540px;
+   padding-right: 30px;
 }
+div.center {
+   text-align: center;
+   margin: 0 auto;
+}
+div.video{
+   width: 420px;
+   height: 315px;
+}
+
 div.keywords span {
    border: solid 1px #888;
    border-radius: 12px;
    background-color: #E4EDEA;
    padding: 4px 8px 4px 9px;
-   font-size: 13px;
+   font-size: 90%;
 }
+@media screen and (max-device-width: 480px), screen and (max-width: 480px) {
+   div.abstract {
+      width: 92%;
+      padding-right: 0;
+   }
+}
+
+@media screen and (max-device-width: 750px), screen and (max-width: 750px) {
+   div.abstract {
+      width: 92%;
+      padding-right: 0;
+   }
+}
+

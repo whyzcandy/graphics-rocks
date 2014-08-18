@@ -1,10 +1,15 @@
 <html lang="en" ng-app="myApp">
    <head>
+      <meta name="viewport" content="width=device-width" />
       <title>Graphics Rocks</title>
       <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
       <link href="http://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet" type="text/css">
       <link type="text/css" rel="stylesheet" href="css/style.css"></link>
+      <style>
+         [touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }
+      </style>
+
    </head>
    <body>
       <ng-view></ng-view>
