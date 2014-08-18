@@ -53,7 +53,7 @@ div.keywords span {
    border-radius: 0.75em;
    background-color: #E4EDEA;
    padding: 0.25em 0.5em;
-   font-size: 90%;
+   font-size: 0.9em;
 }
 @media screen and (max-device-width: 480px), screen and (max-width: 480px) {
    div.abstract {
