@@ -1,3 +1,19 @@
+div.logo {
+   display: inline;
+}
+div.logo img {
+   width: 2.5em;
+}
+div.logo span {
+   font-size: 1.4em;
+   font-weight: bold;
+   font-family: 'Raleway', sans-serif;
+   position: relative;
+   top: -0.6em;
+   left: -0.5em;
+   padding: 10px;
+   color: #999;
+}
 h1 {
    font-family: 'Raleway', sans-serif;
    color: #545C59;
@@ -55,7 +71,6 @@ div.keywords div {
    border-radius: 0.6em;
    background-color: #E4EDEA;
    padding: 0.05em 0.3em 0.05em 0.4em;
-   font-size: 90%;
 }
 @media screen and (max-device-width: 480px), screen and (max-width: 480px) {
    div.abstract {
