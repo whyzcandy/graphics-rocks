@@ -66,5 +66,96 @@
    	"link": "http://www.cs.columbia.edu/~akash/",
    	"video": "//www.youtube.com/embed/pUwiIrKZFrU",
    	"abstract": "We present a computational approach for designing wire meshes, i.e., freeform surfaces composed of woven wires arranged in a regular grid. To facilitate shape exploration, we map material properties of wire meshes to the geometric model of Chebyshev nets. This abstraction is exploited to build an efficient optimization scheme. While the theory of Chebyshev nets suggests a highly constrained design space, we show that allowing controlled deviations from the underlying surface provides a rich shape space for design exploration. Our algorithm balances globally coupled material constraints with aesthetic and geometric design objectives that can be specified by the user in an interactive design session. In addition to sculptural art, wire meshes represent an innovative medium for industrial applications including composite materials and architectural facades. We demonstrate the effectiveness of our approach using a variety of digital and physical prototypes with a level of shape complexity unobtainable using previous methods. "
+   },
+   {
+   	"name": "High-contrast Computational Caustic Design",
+   	"session": "Game & Design",
+   	"link": "http://www.chateaunoir.net/caustics.html",
+   	"video": "//www.youtube.com/embed/R00IvqcI9jU",
+   	"abstract": "We present a new algorithm for computational caustic design. Our algorithm solves for the shape of a transparent object such that the re- fracted light paints a desired caustic image on a receiver screen. We introduce an optimal transport formulation to establish a correspon- dence between the input geometry and the unknown target shape. A subsequent 3D optimization based on an adaptive discretization scheme then finds the target surface from the correspondence map. Our approach supports piecewise smooth surfaces and non-bijective mappings, which eliminates a number of shortcomings of previous methods. This leads to a significantly richer space of caustic images, including smooth transitions, singularities of infinite light density, and completely black areas. We demonstrate the effectiveness of our approach with several simulated and fabricated examples."
+   },
+   {
+   	"name": "Poisson-Based Continuous Surface Generation for Goal-Based Caustics",
+	"link": "http://nishitalab.org/user/egaku/tog14/absttog14.html",   	
+	"session": "Game & Design",
+	"abstract": "We present a technique for computing the shape of a transparent object that can generate user-defined caustic patterns. The surface of the object generated using our method is smooth. Thanks to this property, the resulting caustic pattern is smooth, natural, and highly detailed compared to the results obtained using previous methods. Our method consists of two processes. First, we use a differential geometry approach to compute a smooth mapping between the distributions of the incident light and the light reaching the screen. Second, we utilize this mapping to compute the surface of the object. We solve Poisson's equation to compute both the mapping and the surface of the object."
+   },
+   {
+   	"name": "Boxelization: Folding 3D Objects into Boxes",
+   	"link": "http://cfg.mit.edu/content/boxelization-folding-3d-objects-boxes",
+   	"session": "Game & Design",
+   	"abstract": "We present a method for transforming a 3D object into a cube or a box using a continuous folding sequence. Our method produces a single, connected object that can be physically fabricated and folded from one shape to the other. We segment the object into voxels and search for a voxel-tree that can fold from the input shape to the target shape. This involves three major steps: finding a good voxelization, finding the tree structure that can form the input and target shapes' configurations, and finding a non-intersecting folding sequence. We demonstrate our results on several input 3D objects and also physically fabricate some using a 3D printer."
+   },
+   {
+   	"name": "Bridging the Gap: Automated Steady Scaffoldings for 3D Printing",
+   	"link": "http://www.loria.fr/~jdumas/publications/scaffoldings/",
+   	"session": "Fabrication",
+   	"abstract": "We propose to exploit the ability of FFF printers to print bridges across gaps. Since bridges are always supported by pillars at their extremities, they are both stronger and more stable than hierarchical tree structures. Our technique first selects the points to support based on overhang and part stability during the entire print process. It then optimizes for a printable scaffolding composed of bridges and vertical pillars, supporting all points. The result is an automated support generation technique using little material while ensuring fine surface quality and stability during the printing process."
+   },
+   {
+   	"name": "Computational Light Routing: 3D Printed Fiber Optics for Sensing and Display",
+   	"link": "http://gfx.cs.princeton.edu/pubs/Pereira_2014_CLR/",
+   	"session": "Fabrication",
+   	"abstract": "Despite recent interest in digital fabrication, there are still few algorithms that provide control over how light propagates inside a solid object. Existing methods either work only on the surface or restrict themselves to light diffusion in volumes. We use multi-material 3D printing to fabricate objects with embedded optical fibers, exploiting total internal reflection to guide light inside an object. We introduce automatic fiber design algorithms together with new manufacturing techniques to route light between two arbitrary surfaces. Our implicit algorithm optimizes light transmission by minimizing fiber curvature and maximizing fiber separation while respecting constraints such as fiber arrival angle. We also discuss the influence of different printable materials and fiber geometry on light propagation in the volume and the light angular distribution when exiting the fiber. Our methods enable new applications such as surface displays of arbitrary shape, touch-based painting of surfaces and sensing a hemispherical light distribution in a single shot."
+   },
+   {
+   	"name": "An Asymptotic Numerical Method for Inverse Elastic Shape Design",
+   	"link": "http://gaps-zju.org/ANMdesign/",
+   	"session": "Fabrication",
+   	"abstract": "Inverse shape design for elastic objects greatly eases the design efforts by letting users focus on the desired target shape without worrying about elastic deformation. Solving this problem using classic iterative methods (e.g., Newton-Raphson methods), however, often suffers from slow convergence toward a desired solution. In this paper, we propose an asymptotic numerical method that exploits the particular mathematical structure of the nonlinear material model, and thus runs orders of magnitude faster than traditional Newton-type methods. We apply this method for solving the rest shape in elastic fabrication, where the rest shape of an elastic object is computed so that after fabrication it deforms into a desired shape in the physical world. We illustrate the performance and robustness of our method, through a series of elastic fabrication experiments.",
+   	"video": "//www.youtube.com/embed/ziSbuZoF-Ss"
+   },
+   {
+   	"name": "Spin-It: Optimizing Moment of Inertia for Spinnable Objects",
+   	"link": "http://www.disneyresearch.com/project/spin-it/",
+   	"session": "Fabrication",
+   	"abstract": "Spinning tops and yo-yos have long fascinated cultures around the world with their unexpected, graceful motions that seemingly elude gravity. We present an algorithm to generate designs for spinning objects by optimizing rotational dynamics properties. As input, the user provides a solid 3D model and a desired axis of rotation. Our approach then modifies the mass distribution such that the principal directions of the moment of inertia align with the target rotation frame. We augment the model by creating voids inside its volume, with interior fill represented by an adaptive multi-resolution voxelization. The discrete voxel fill values are optimized using a continuous, nonlinear formulation. Further, we optimize for rotational stability by maximizing the dominant principal moment. We extend our technique to incorporate deformation and multiple materials for cases where internal voids alone are insufficient. Our method is well-suited for a variety of 3D printed models, ranging from characters to abstract shapes. We demonstrate tops and yo-yos that spin surprisingly stably despite their asymmetric appearance.",
+   	"video": "//www.youtube.com/embed/qquek0c5bt4"
+   },
+   {
+   	"name": "Build-to-Last: Strength to Weight 3D Printed Objects",
+   	"link": "http://vr.sdu.edu.cn/~lulin/3DP/build-to-last.html",
+   	"session": "Fabrication",
+   	"abstract": "We introduce a hollowing optimization algorithm based on the concept of honeycomb-cells structure. Honeycombs structures are known to be of minimal material cost while providing strength in tension. We utilize the Voronoi diagram to compute irregular honeycomb-like volume tessellations which define the inner struc ture. We formulate our problem as a strength-to-weight optimiza tion and cast it as mutually finding an optimal interior tessellation and its maximal hollowing subject to relieve the interior stress. Thus, our system allows to build-to-last 3D printed objects with large control over their strength-to-weight ratio and easily model various interior structures. We demonstrate our method on a collection of 3D objects from different categories. Furthermore, we evaluate our method by printing our hollowed models and measure their stress and weights."
+   },
+   {
+   	"name": "PushPull++", 
+   	"link": "http://dl.acm.org/citation.cfm?doid=2601097.2601197",
+   	"session": "Interactive Modeling",
+   	"abstract": "PushPull tools are implemented in most commercial 3D modeling suites. Their purpose is to intuitively transform a face, edge, or vertex, and then to adapt the polygonal mesh locally. However, previous approaches have limitations: Some allow adjustments only when adjacent faces are orthogonal; others support slanted surfaces but never create new details. Moreover, self-intersections and edge-collapses during editing are either ignored or work only partially for solid geometry. To overcome these limitations, we introduce the PushPull++ tool for rapid polygonal modeling. In our solution, we contribute novel methods for adaptive face insertion, adjacent face updates, edge collapse handling, and an intuitive user interface that automatically proposes useful drag directions. We show that PushPull++ reduces the complexity of common modeling tasks by up to an order of magnitude when compared with existing tools."
+   },
+   {
+   	"name": "Flow complex based shape reconstruction from 3D curves",
+   	"link": "http://www.cs.toronto.edu/~sadri/page4/files/d76b1e69c42fda288de3495bd502ecd4-13.html",
+   	"session": "Interactive Modeling",
+   	"abstract": "We address the problem of shape reconstruction from a sparse unorganized collection of 3D curves, typically generated by increasingly popular 3D curve sketching applications. Experimentally, we observe that human understanding of shape from connected 3D curves is largely consistent, and informed by both topological connectivity and geometry of the curves. We thus employ the flow complex, a structure that captures aspects of input topology and geometry, in a novel algorithm to produce an intersection-free 3D triangulated shape that interpolates the input 3D curves. Our approach is able to triangulate highly non-planar and concave curve cycles, providing a robust 3D mesh and parametric embedding for challenging 3D curve input. Our evaluation is four-fold: we show our algorithm to match designer selected curve cycles for surfacing; we produce user acceptable shapes for a wide range of curve inputs; we show our approach to be predictable and robust to curve addition and deletion; we compare our results to prior art."
+   },
+   {
+   	"name": "True2Form: 3D Curve Networks from 2D Sketches via Selective Regularization",
+   	"link": "http://www.cs.ubc.ca/~brianxu/publications/true2form/",
+   	"session": "Interactive Modeling",
+   	"abstract": "True2Form is a sketch-based modeling system that reconstructs 3D curves from typical design sketches. Our approach to infer 3D form from 2D drawings is a novel mathematical framework of insights derived from perception and design literature. We note that designers favor viewpoints that maximally reveal 3D shape information, and strategically sketch descriptive curves that convey intrinsic shape properties, such as curvature, symmetry, or parallelism. Studies indicate that viewers apply these properties selectively to envision a globally consistent 3D shape. We mimic this selective regularization algorithmically, by progressively detecting and enforcing applicable properties, accounting for their global impact on an evolving 3D curve network. Balancing regularity enforcement against sketch fidelity at each step allows us to correct for inaccuracy inherent in free-hand sketching. We perceptually validate our approach by showing agreement between our algorithm and viewers in selecting applicable regularities. We further evaluate our solution by: reconstructing a range of 3D models from diversely sourced sketches; comparisons to prior art; and visual comparison to both ground-truth and 3D reconstructions by designers.",
+   	"video": "//www.youtube.com/embed/tbUljHJv4Rg"
+   },
+   {
+   	"name": "Interactive Shape Modeling using a Skeleton-Mesh Co-Representation",
+   	"link": "http://www2.compute.dtu.dk/~janba/pam/",
+   	"session": "Interactive Modeling",
+   	"abstract": "We introduce the Polar-Annular Mesh representation (PAM). A PAM is a mesh-skeleton co-representation designed for the modeling of 3D organic, articulated shapes. A PAM represents a manifold mesh as a partition of polar (triangle fans) and annular (rings of quads) regions. The skeletal topology of a shape is uniquely embedded in the mesh connectivity of a PAM, enabling both surface and skeletal modeling operations, interchangeably and directly on the mesh itself. We develop an algorithm to convert arbitrary triangle meshes into PAMs as well as techniques to simplify PAMs and a method to convert a PAM to a quad-only mesh. We further present a PAM-based multi-touch sculpting application in order to demonstrate its utility as a shape representation for the interactive modeling of organic, articulated figures as well as for editing and posing of pre-existing models.",
+   	"video": "//www.youtube.com/embed/sf0JWnQkneU"
+   },
+   {
+   	"name": "Vector Graphics Complexes",
+   	"link": "http://www.dalboris.com/research/vgc/",
+   	"session": "Interactive Modeling",
+   	"abstract": "Basic topological modeling, such as the ability to have several faces share a common edge, has been largely absent from vector graphics. We introduce the vector graphics complex (VGC) as a simple data structure to support fundamental topological modeling operations for vector graphics illustrations. The VGC can represent any arbitrary non-manifold topology as an immersion in the plane, unlike planar maps which can only represent embeddings. This allows for the direct representation of incidence relationships between objects and can therefore more faithfully capture the intended semantics of many illustrations, while at the same time keeping the geometric flexibility of stacking-based systems. We describe and implement a set of topological editing operations for the VGC, including glue, unglue, cut, and uncut. Our system maintains a global stacking order for all faces, edges, and vertices without requiring that components of an object reside together on a single layer. This allows for the coordinated editing of shared vertices and edges even for objects that have components distributed across multiple layers. We introduce VGC-specific methods that are tailored towards quickly achieving desired stacking orders for faces, edges, and vertices.",
+   	"video": "//www.youtube.com/embed/-XONNPyeb5U"
+   },
+   {
+   	"name": "Capturing and Stylizing Hair for 3D Fabrication",
+   	"link": "http://www.disneyresearch.com/project/stylized-hair-capture/",
+   	"session": "Hair & Collisions",
+   	"abstract": "In this paper we present the first method for *stylized* hair capture, a technique to reconstruct an individual’s actual hair-style in a manner suitable for physical reproduction. Inspired by centuries-old artistic sculptures, our method generates hair as a closed-manifold surface, yet contains the structural and color elements stylized in a way that captures the defining characteristics of the hair-style. The key to our approach is a novel multi-view stylization algorithm, which extends feature-preserving color filtering from 2D images to irregular manifolds in 3D, and introduces abstract geometric details that are coherent with the color stylization. The proposed technique fits naturally in traditional pipelines for figurine reproduction, and we demonstrate the robustness and versatility of our approach by capturing several subjects with widely varying hair-styles.",
+   	"video": "//www.youtube.com/embed/QRBkdhZwBic"
    }
 ]
