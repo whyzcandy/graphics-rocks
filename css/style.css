@@ -1,6 +1,24 @@
 div.logo img {
    width: 2.5em;
 }
+div.logo {
+   padding-bottom: 2em;
+}
+div.search{
+   text-align: center;
+   color: #999;
+}
+input {
+   font-size: 1.2em;
+   padding: 0.4em 1em;
+   font-family: 'Bitter', sans-serif;
+   border: 1px #999 solid;
+   width: 420px;
+   margin-right: 0.5em;
+}
+input:active, input:hover, input:focus {
+   outline: none;
+}
 div.logo span {
    cursor: default;
 }

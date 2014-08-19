@@ -3,9 +3,13 @@
     <span>graphics.rocks</span>
     <div><a class="current" href="#/siggraph-2014-paper">Siggraph 2014 Paper</a></div>
     <div><a href="#/siggraph-2014-course">Siggraph 2014 Course</a></div>
-</div>
+ </div>
 <div class="center">
-   <div ng-repeat="paper in papers" class="item">
+ <div class="search", reconstruction>
+    <input ng-model="query" placeholder="Type keywords to search, e.g. fabrication">
+    <span>{{filtered.length}} paper</span>
+</div>
+   <div ng-repeat="paper in filtered = (papers | filter:query)" class="item">
    <div class="inline">
       <div class="abstract">
    <h2><a ng-href="{{paper.link}}">{{paper.name}}</a></h2>
