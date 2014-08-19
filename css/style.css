@@ -1,18 +1,39 @@
-div.logo {
-   display: inline;
-}
 div.logo img {
    width: 2.5em;
 }
 div.logo span {
-   font-size: 1.4em;
+   cursor: default;
+}
+div.logo div {
+   display:inline;
+}
+div.logo a, div.logo span {
+   text-decoration: none;
    font-weight: bold;
    font-family: 'Raleway', sans-serif;
    position: relative;
-   top: -0.6em;
-   left: -0.5em;
-   padding: 10px;
    color: #999;
+   font-size: 1.2em;
+   top: -0.5em;
+}
+div.logo a {
+   padding-right: 0.5em;
+}
+div.logo a.current {
+   font-size: 1.4em;
+   color: #111;
+}
+div.logo a.current:hover {
+   cursor: default;
+   color: #111;
+}
+div.logo a:hover {
+   color: #777;
+}
+div.logo span {
+   font-size: 1.4em;
+   padding-right: 2em;
+   top: -0.6em;
 }
 h1 {
    font-family: 'Raleway', sans-serif;
