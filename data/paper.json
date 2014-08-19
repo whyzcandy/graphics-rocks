@@ -157,5 +157,19 @@
    	"session": "Hair & Collisions",
    	"abstract": "In this paper we present the first method for *stylized* hair capture, a technique to reconstruct an individual’s actual hair-style in a manner suitable for physical reproduction. Inspired by centuries-old artistic sculptures, our method generates hair as a closed-manifold surface, yet contains the structural and color elements stylized in a way that captures the defining characteristics of the hair-style. The key to our approach is a novel multi-view stylization algorithm, which extends feature-preserving color filtering from 2D images to irregular manifolds in 3D, and introduces abstract geometric details that are coherent with the color stylization. The proposed technique fits naturally in traditional pipelines for figurine reproduction, and we demonstrate the robustness and versatility of our approach by capturing several subjects with widely varying hair-styles.",
    	"video": "//www.youtube.com/embed/QRBkdhZwBic"
+   },
+   {
+   	"name": "AverageExplorer: Interactive Exploration and Alignment of Visual Data Collections",
+   	"link": "http://www.eecs.berkeley.edu/~junyanz/projects/averageExplorer/",
+   	"sessoin": "Shady Images",
+   	"abstract": "This paper proposes an interactive framework that allows a user to rapidly explore and visualize a large image collection using the medium of average images. Average images have been gaining popularity as means of artistic expression and data visualization, but the creation of compelling examples is a surprisingly laborious and manual process. Our interactive, real-time system provides a way to summarize large amounts of visual data by weighted average(s) of an image collection, with the weights reflecting user-indicated importance. The aim is to capture not just the mean of the distribution, but a set of modes discovered via interactive exploration. We pose this exploration in terms of a user interactively “editing” the average image using various types of strokes, brushes and warps, similar to a normal image editor, with each user interaction providing a new constraint to update the average. New weighted averages can be spawned and edited either individually or jointly. Together, these tools allow the user to simultaneously perform two fundamental operations on visual data: user-guided clustering and user-guided alignment, within the same framework. We show that our system is useful for various computer vision and graphics applications.",
+   	"video": "//www.youtube.com/embed/1QgL_aPPCpM"
+   },
+   {
+   	"name": "Automatic scene inference for 3D object compositing", 
+   	"link": "http://kevinkarsch.com/?portfolio=automatic-scene-inference-for-3d-object-compositing",
+   	"session": "Shady Images",
+   	"abstract": "We present a user-friendly image editing system that supports a drag-and-drop object insertion (where the user merely drags objects into the image, and the system automatically places them in 3D and relights them appropriately), post-process illumination editing, and depth-of-field manipulation. Underlying our system is a fully automatic technique for recovering a comprehensive 3D scene model (geometry, illumination, diffuse albedo and camera parameters) from a single, low dynamic range photograph. This is made possible by two novel contributions — an illumination inference algorithm that recovers a full lighting model of the scene (including light sources that are not directly visible in the photograph), and a depth estimation algorithm that combines data-driven depth transfer with geometric reasoning about the scene layout. A user study shows that our system produces perceptually convincing results, and achieves the same level of realism as techniques that require significant user interaction.",
+   	"video": "//player.vimeo.com/video/101866891"
    }
 ]
