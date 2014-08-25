@@ -8,6 +8,11 @@ myApp.config(function($routeProvider) {
          templateUrl: 'views/siggraph-2014-paper.html',
          controller: 'SiggraphCtrl'
       });
+   $routeProvider.when('/hair-project-related-work',
+      {
+         templateUrl: 'views/hair-project-related-work.html',
+         controller: 'HairCtrl'
+      });
    $routeProvider.when('/material-project-related-work',
       {
          templateUrl: 'views/material-project-related-work.html',

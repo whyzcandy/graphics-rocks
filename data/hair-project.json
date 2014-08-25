@@ -1,0 +1,16 @@
+[
+	{
+   	"name": "An Asymptotic Numerical Method for Inverse Elastic Shape Design",
+   	"link": "http://gaps-zju.org/ANMdesign/",
+   	"session": "SIGGRAPH 2014",
+   	"abstract": "Inverse shape design for elastic objects greatly eases the design efforts by letting users focus on the desired target shape without worrying about elastic deformation. Solving this problem using classic iterative methods (e.g., Newton-Raphson methods), however, often suffers from slow convergence toward a desired solution. In this paper, we propose an asymptotic numerical method that exploits the particular mathematical structure of the nonlinear material model, and thus runs orders of magnitude faster than traditional Newton-type methods. We apply this method for solving the rest shape in elastic fabrication, where the rest shape of an elastic object is computed so that after fabrication it deforms into a desired shape in the physical world. We illustrate the performance and robustness of our method, through a series of elastic fabrication experiments.",
+   	"video": "//www.youtube.com/embed/ziSbuZoF-Ss"
+   },
+   {
+		"name": "TeslaTouch: Electrovibration for Touch Surfaces",
+		"video": "//www.youtube.com/embed/3l3MDNZk-3I",
+		"link": "http://www.chrisharrison.net/projects/teslatouch/teslatouchUIST2010.pdf",
+		"abstract": "TeslaTouch is a new technology for enhancing touch interfaces with tactile sensations. It is based on the electrovibration principle, which can programmatically vary the friction between sliding fingers and a touch panel. The TeslaTouch technology requires no moving parts and therefore is inexpensive, lightweight and requires little power. Our technology provides a wide range of tactile sensations to fingers sliding across touch-screens of any shape or size, from small mobile displays to curved or wall-sized screens.",
+		"session": "UIST 2010"
+	}
+]
