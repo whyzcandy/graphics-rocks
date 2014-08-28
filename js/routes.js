@@ -23,6 +23,11 @@ myApp.config(function($routeProvider) {
          templateUrl: 'views/siggraph-2014-course.html',
          controller: 'SiggraphCtrl'
       });
+   $routeProvider.when('/reading-group',
+      {
+         templateUrl: 'views/reading-group.html',
+         controller: 'ReadingCtrl'
+      });
    $routeProvider.otherwise({
       redirectTo: '/siggraph-2014-paper'
    });
