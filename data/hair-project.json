@@ -12,5 +12,65 @@
 		"link": "http://www.chrisharrison.net/projects/teslatouch/teslatouchUIST2010.pdf",
 		"abstract": "TeslaTouch is a new technology for enhancing touch interfaces with tactile sensations. It is based on the electrovibration principle, which can programmatically vary the friction between sliding fingers and a touch panel. The TeslaTouch technology requires no moving parts and therefore is inexpensive, lightweight and requires little power. Our technology provides a wide range of tactile sensations to fingers sliding across touch-screens of any shape or size, from small mobile displays to curved or wall-sized screens.",
 		"session": "UIST 2010"
-	}
+	},
+	{
+		"name": "Inverse Shade Trees for Non-Parametric Material Representation and Editing",
+		"link": "http://people.csail.mit.edu/wojciech/IST/index.html",
+		"session": "SIGGRAPH 2006",
+		"abstract": "Recent progress in the measurement of surface reflectance has created a demand for non-parametric appearance representations that are accurate, compact, and easy to use for rendering. Another crucial goal, which has so far received little attention, is editability: for practical use, we must be able to change both the directional and spatial behavior of surface reflectance (e.g., making one material shinier, another more anisotropic, and changing the spatial \"texture maps\" indicating where each material appears). We introduce an Inverse Shade Tree framework that provides a general approach to estimating the \"leaves\" of a user-specified shade tree from high-dimensional measured datasets of appearance. These leaves are sampled 1- and 2-dimensional functions that capture both the directional behavior of individual materials and their spatial mixing patterns. In order to compute these shade trees automatically, we map the problem to matrix factorization and introduce a flexible new algorithm that allows for constraints such as non-negativity, sparsity, and energy conservation. Although we cannot infer every type of shade tree, we demonstrate the ability to reduce multigigabyte measured datasets of the Spatially-Varying Bidirectional Reflectance Distribution Function (SVBRDF) into a compact representation that may be edited in real time."
+	},
+	{
+		"name": "Capture and Modeling of Non-Linear Heterogeneous Soft Tissue",
+		"link": "http://people.csail.mit.edu/wojciech/SoftTissue/index.html",
+		"session": "SIGGRAPH 2009",
+		"video": "//www.youtube.com/embed/xHvaBPTTlk0",
+		"abstract": "This paper introduces a data-driven representation and modeling technique for simulating non-linear heterogeneous soft tissue. It simplifies the construction of convincing deformable models by avoiding complex selection and tuning of physical material parameters, yet retaining the richness of non-linear heterogeneous behavior. We acquire a set of example deformations of a real object, and represent each of them as a spatially varying stress-strain relationship in a finite-element model. We then model the material by non-linear interpolation of these stress-strain relationships in strain-space. Our method relies on a simple-to-build capture system and an efficient run-time simulation algorithm based on incremental loading, making it suitable for interactive computer graphics applications. We present the results of our approach for several nonlinear materials and biological soft tissue, with accurate agreement of our model to the measured data."
+	},
+	{
+		"name": "Physical reproduction of materials with specified subsurface scattering",
+		"link": "http://people.csail.mit.edu/wojciech/PRO/index.html",
+		"session": "SIGGRAPH 2010",
+		"abstract": "Traditional image compositing techniques, such as alpha matting and gradient domain compositing, are used to create composites that have plausible boundaries. But when applied to images taken from different sources or shot under different conditions, these techniques can produce unrealistic results. In this work, we present a framework that explicitly matches the visual appearance of images through a process we call image harmonization, before blending them. At the heart of this framework is a multi-scale technique that allows us to transfer the appearance of one image to another. We show that by carefully manipulating the scales of a pyramid decomposition of an image, we can match contrast, texture, noise, and blur, while avoiding image artifacts. The output composite can then be reconstructed from the modified pyramid coefficients while enforcing both alpha-based and seamless boundary constraints. We show how the proposed framework can be used to produce realistic composites with minimal user interaction in a number of different scenarios."
+	},
+	{
+	   	"name": "Capturing and Stylizing Hair for 3D Fabrication",
+	   	"link": "http://www.disneyresearch.com/project/stylized-hair-capture/",
+	   	"session": "Hair & Collisions",
+	   	"abstract": "In this paper we present the first method for *stylized* hair capture, a technique to reconstruct an individual’s actual hair-style in a manner suitable for physical reproduction. Inspired by centuries-old artistic sculptures, our method generates hair as a closed-manifold surface, yet contains the structural and color elements stylized in a way that captures the defining characteristics of the hair-style. The key to our approach is a novel multi-view stylization algorithm, which extends feature-preserving color filtering from 2D images to irregular manifolds in 3D, and introduces abstract geometric details that are coherent with the color stylization. The proposed technique fits naturally in traditional pipelines for figurine reproduction, and we demonstrate the robustness and versatility of our approach by capturing several subjects with widely varying hair-styles.",
+	   	"video": "//www.youtube.com/embed/QRBkdhZwBic"
+   	},
+   	{
+   		"name": "Design and fabrication of materials with desired deformation behavior",
+   		"link": "http://people.csail.mit.edu/wojciech/DAF/index.html",
+   		"session": "SIGGRAPH 2010",
+   		"video": "//www.youtube.com/embed/pSrVFUKOC1k",
+   		"abstract": "This paper introduces a data-driven process for designing and fabricating materials with desired deformation behavior. Our process starts with measuring deformation properties of base materials. For each base material we acquire a set of example deformations, and we represent the material as a non-linear stress-strain relationship in a finite-element model. We have validated our material measurement process by comparing simulations of arbitrary stacks of base materials with measured deformations of fabricated material stacks. After material measurement, our process continues with designing stacked layers of base materials. We introduce an optimization process that finds the best combination of stacked layers that meets a user’s criteria specified by example deformations. Our algorithm employs a number of strategies to prune poor solutions from the combinatorial search space. We demonstrate the complete process by designing and fabricating objects with complex heterogeneous materials using modern multi-material 3D printers."
+   	},
+	{
+		"name": "Printing Spatially-Varying Reflectance",
+		"link": "http://people.csail.mit.edu/wojciech/ReflectancePrinting/index.html",
+		"session": "SIGGRAPH Asia 2009",
+		"abstract": "Although real-world surfaces can exhibit significant variation in materials -- glossy, diffuse, metallic, etc. -- printers are usually used to reproduce color or gray-scale images. We propose a complete system that uses appropriate inks and foils to print documents with a variety of material properties. Given a set of inks with known Bidirectional Reflectance Distribution Functions (BRDFs), our system automatically finds the optimal linear combinations to approximate the BRDFs of the target documents. Novel gamutmapping algorithms preserve the relative glossiness between different BRDFs, and halftoning is used to produce patterns to be sent to the printer. We demonstrate the effectiveness of this approach with printed samples of a number of measured spatially-varying BRDFs."
+	},
+	{
+      	"abstract": "We propose a data-driven method for designing 3D models that can be fabricated. First, our approach converts a collection of expert-created designs to a dataset of parameterized design templates that includes all information necessary for fabrication. The templates are then used in an interactive design system to create new fabricable models in a design-by-example manner. A simple interface allows novice users to choose template parts from the database, change their parameters, and combine them to create new models. Using the information in the template database, the system can automatically position, align, and connect parts: the system accomplishes this by adjusting parameters, adding appropriate constraints, and assigning connectors. This process ensures that the created models can be fabricated, saves the user from many tedious but necessary tasks, and makes it possible for non-experts to design and create actual physical objects. To demonstrate our data-driven method, we present several examples of complex functional objects that we designed and manufactured using our system.",
+		"name": "Design and Fabrication by Example",
+	   	"session": "Fabrication Oriented Design",
+	   	"link": "http://fabbyexample.csail.mit.edu/",
+	   	"video": "//www.youtube.com/embed/YO8iQQUd2JM"
+    },
+    {
+    	"name": "Computational Design of Actuated Deformable Characters",
+    	"link": "http://www.disneyresearch.com/project/actuated-deformable-characters/",
+    	"session": "SIGGRAPH 2013",
+    	"video": "//www.youtube.com/embed/98E0FNOch0w",
+    	"abstract": "We present a method for fabrication-oriented design of actuated deformable characters that allows a user to automatically create physical replicas of digitally designed characters using rapid manufacturing technologies. Given a deformable character and a set of target poses as input, our method computes a small set of actuators along with their locations on the surface and optimizes the internal material distribution such that the resulting character exhibits the desired deformation behavior. We approach this problem with a dedicated algorithm that combines finite-element analysis, sparse regularization, and constrained optimization. We validate our pipeline on a set of two- and three-dimensional example characters and present results in simulation and physically-fabricated prototypes."
+    },
+    {
+    	"name": "Coupled 3D Reconstruction of Sparse Facial Hair and Skin",
+    	"link": "http://www.disneyresearch.com/project/coupled-3d-reconstruction-of-sparse-facial-hair-and-skin/",
+    	"session": "SIGGRAPH 2012",
+    	"video": "//www.youtube.com/embed/npecw1ohjA8",
+    	"abstract": "Although facial hair plays an important role in individual expression, facial-hair reconstruction is not addressed by current face-capture systems. Our research addresses this limitation with an algorithm that treats hair and skin surface capture together in a coupled fashion so that a high-quality representation of hair ﬁbers as well as the underlying skin surface can be reconstructed. We propose a passive, camera-based system that is robust against arbitrary motion since all data is acquired within the time period of a single exposure. Our reconstruction algorithm detects and traces hairs in the captured images and reconstructs them in 3D using a multi-view stereo approach. Our coupled skin-reconstruction algorithm uses information about the detected hairs to deliver a skin surface that lies underneath all hairs irrespective of occlusions. In dense regions like eyebrows, we employ a hair-synthesis method to create hair ﬁbers that plausibly match the image data. We demonstrate our scanning system on a number of individuals and show that it can successfully reconstruct a variety of facial-hair styles together with the underlying skin surface."
+    }
 ]
